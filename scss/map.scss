@@ -1,0 +1,12 @@
+//Bucles para margenes
+@for $marginTop from 1 through 10 {
+    .marginTop-#{$marginTop}{
+        margin-top: 5px * $marginTop;
+    }
+}
+
+@for $marginBo from 1 through 10 {
+    .marginBo-#{$marginBo}{
+        margin-bottom: 5px * $marginBo;
+    }
+}
